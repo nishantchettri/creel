@@ -1,0 +1,111 @@
+/**************** MAIN HTML ***************/
+body{
+    background-color:#dfdccc; /*#c7c7c7; #afafaf; #cac8c8;*/
+    padding-top:70px;
+}
+
+
+/************* MODIFY BOOTSTRAP ************/
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+.navbar-fixed-top{
+    margin-bottom:0px;
+    background-color:green;
+    border:none;
+    min-height:80px
+}
+.table{
+    background-color:white !important;
+}
+
+/* Dropdown on HOVER */
+ul.nav li.dropdown:hover{
+    background-color:#e7e7e7;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+th{
+    text-align:center !important;
+}
+.panel{
+    border-radius:0;
+}
+h4{
+    font-weight:bold;
+}
+label{
+    margin-bottom:0;
+}
+/************* MEDIA QUERIES ***************/
+@media(min-width:768px){
+    .div-center{
+        margin-left:auto;
+        margin-right:auto;
+        width:40%;
+        /*margin-top:150px;*/
+    }
+}
+@media(min-width:1200px){
+    .div-center{
+        margin-left:auto;
+        margin-right:auto;
+        width:35%;
+        /*margin-top:150px;*/
+    }
+}
+
+/************** HELPER CLASSES *************/
+.panel-center{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+.min-width-margin{
+    margin-left:5px;
+    margin-right:5px;
+}
+.left-button{
+    padding-left:0;
+    text-align:left;
+}
+.right-button{
+    padding-right:0;
+    text-align:right;
+}
+.bold{
+    font-weight:bold;
+}
+.bg-green{
+    background-color:green;
+    //border:0;
+}
+.bg-orange{
+    background-color:orange;
+}
+.bg-yellow{
+    background-color:yellow;
+}
+.bg-green{
+    background-color:lightgreen;
+}
+.bg-gray{
+    background-color:lightgray;
+}
+.bg-red{
+    background-color:#f33a3a;
+    //border:0;
+}
+.img-center{
+    text-align:center;
+}
+.no-pad{
+    padding-left:0;
+    padding-right:0;
+}
+.label-background{
+    background-color:#f5f5f5;
+    border-color:#ddd;
+}
